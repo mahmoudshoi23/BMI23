@@ -1,4 +1,5 @@
 import 'package:bmiabdallah/bmi_screen.dart';
+import 'package:bmiabdallah/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 
         debugShowCheckedModeBanner: false,
-        home:BmiScreen(),
+        home:loginPage(),
     );
   }
 }
